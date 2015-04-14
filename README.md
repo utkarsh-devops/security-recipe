@@ -1,5 +1,8 @@
 # security-recipe
-#node.json
+
+.......................................
+
+-node.json
 
 {
 
@@ -8,11 +11,10 @@
 
 
 
+.........................................
 
+-solo.rb
 
-#solo.rb
-
-#file_cache_path "/home/ubuntu/chef"
 cookbook_path "/root/test/cookbooks"
 
   json_attribs "/root/test/node.json"
