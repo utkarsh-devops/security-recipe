@@ -1,0 +1,9 @@
+/var/log/apache2/*.log {
+	daily
+        size 50M
+	rotate 10
+	compress
+	notifempty
+	create 640 root adm
+}
+
